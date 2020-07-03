@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<!DOCTYPE manifest SYSTEM "https://raw.githubusercontent.com/CoSSeDevelopmentTeam/CPhone/master/CPhoneManifest.dtd">-->
+
+<manifest>
+    <application>
+        <title>ServerMail</title>
+        <description>プレイヤー間でメールをやり取りできます。オフラインのプレイヤーにもメッセージを残せます。</description>
+        <author>popkechupki</author>
+        <version>1.0.1</version>
+        <mcbeversion>1.14</mcbeversion>
+        <iconType>url</iconType>
+        <icon>https://info.comorevi.net/images/favicon/logo_transparent.png</icon>
+    </application>
+
+    <permission type = "default" />
+
+    <activity>
+        <name>MainActivity</name>
+        <main>net.comorevi.cpapp.mail.MainActivity</main>
+    </activity>
+
+    <external-lang>
+        <lang region="en">
+            <title>ServerMail</title>
+            <description>ServerMail application. You can leave a message to offline player.</description>
+        </lang>
+        <lang region="ja">
+            <title>サーバーメール/ServerMail</title>
+            <description>プレイヤー間でメールをやり取りできます。オフラインのプレイヤーにもメッセージを残せます。</description>
+        </lang>
+    </external-lang>
+</manifest>
